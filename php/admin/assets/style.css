@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: rgb(212, 232, 245);
+}
+
+#login {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#login .signin-box {
+  max-width: 300px;
+  padding: 19px 29px 29px;
+  margin: 0 auto 20px;
+  background-color: #fff;
+  border: 1px solid #e5e5e5;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+#login .signin-box .form-signin-heading,
+#login .signin-box .checkbox {
+  margin-bottom: 20px;
+}
+
+#login .signin-box input[type="text"],
+#login .signin-box input[type="password"] {
+  font-size: 16px;
+  height: auto;
+  margin-bottom: 15px;
+  padding: 7px 9px;
+}
+
+/*
+.btn {
+  background: rgb(97, 97, 244);
+  height: 30px;
+  width: 70px;
+}
+
+.controls .btn {
+  height: 30px;
+  width: 50px;
+}
+
+
